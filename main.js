@@ -31,7 +31,7 @@ const DataBase = [
     {
         "question": "How many solar appliances do you use?",
         "a":"More than 7",
-        "b":"More than 5 but less than 2",
+        "b":"More than 5 but less than 7",
         "c":"More than 3",
         "d":"I dont use any."
     },
