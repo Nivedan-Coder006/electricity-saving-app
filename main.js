@@ -284,7 +284,7 @@ document.getElementById("submit").onclick = function(){
             document.getElementById("he").textContent = "Some feedbacks for you to save electricity: " + finalFeedbacks.join(" and ") + "☹️☹️";
         }
         else{
-            document.getElementById("he").textContent = "Some feedbacks for you to save electricity: " + "You are doing a awseome job keep it up!😁😁";
+            document.getElementById("he").textContent = "Some feedbacks for you to save electricity: " + "You are doing a awesome job keep it up!😁😁";
 
         }
 
