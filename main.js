@@ -294,7 +294,7 @@ document.getElementById("submit").onclick = function(){
         document.getElementById("h").textContent = "Your rating out of 50 based on your electricity usage: " + score+"/50";
         document.getElementById("end").classList.remove("ScoreArea")
         document.getElementById("submit").textContent = "Replay"
-        document.getElementById("question").textContent = "Here is some feedback and rating for you. If you want to answer again press Replay"
+        document.getElementById("question").textContent = "Here is some feedbacks and rating for you. If you want to answer again press Replay"
         document.getElementById("submit").onclick = function(){
             document.location.reload()
         }
