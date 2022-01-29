@@ -92,7 +92,7 @@ const getCheckedAnswer = () =>{
 
 
 document.getElementById("submit").onclick = function(){
-    if(questionNumber<10){
+    if(questionNumber<12){
 
         document.getElementById("answer1").classList.remove("ans")
         document.getElementById("answer2").classList.remove("ans")
@@ -122,23 +122,6 @@ document.getElementById("submit").onclick = function(){
 
             }
         }
-        if(questionNumber == 2){
-            if(getCheckedAnswer()=="answer1"){
-                score=score+5
-            }
-            if(getCheckedAnswer()=="answer2"){
-                score=score+3
-            }
-            if(getCheckedAnswer()=="answer3"){
-                score=score+1
-                finalFeedbacks.push(feedbacks[1])
-            }
-            if(getCheckedAnswer()=="answer4"){
-                score=score+0
-                finalFeedbacks.push(feedbacks[1])
-
-            }
-        }
         if(questionNumber == 3){
             if(getCheckedAnswer()=="answer1"){
                 score=score+5
@@ -148,11 +131,11 @@ document.getElementById("submit").onclick = function(){
             }
             if(getCheckedAnswer()=="answer3"){
                 score=score+1
-                finalFeedbacks.push(feedbacks[2])
+                finalFeedbacks.push(feedbacks[1])
             }
             if(getCheckedAnswer()=="answer4"){
                 score=score+0
-                finalFeedbacks.push(feedbacks[2])
+                finalFeedbacks.push(feedbacks[1])
 
             }
         }
@@ -165,11 +148,11 @@ document.getElementById("submit").onclick = function(){
             }
             if(getCheckedAnswer()=="answer3"){
                 score=score+1
-                finalFeedbacks.push(feedbacks[3])
+                finalFeedbacks.push(feedbacks[2])
             }
             if(getCheckedAnswer()=="answer4"){
                 score=score+0
-                finalFeedbacks.push(feedbacks[3])
+                finalFeedbacks.push(feedbacks[2])
 
             }
         }
@@ -182,11 +165,11 @@ document.getElementById("submit").onclick = function(){
             }
             if(getCheckedAnswer()=="answer3"){
                 score=score+1
-                finalFeedbacks.push(feedbacks[4])
+                finalFeedbacks.push(feedbacks[3])
             }
             if(getCheckedAnswer()=="answer4"){
                 score=score+0
-                finalFeedbacks.push(feedbacks[4])
+                finalFeedbacks.push(feedbacks[3])
 
             }
         }
@@ -199,6 +182,23 @@ document.getElementById("submit").onclick = function(){
             }
             if(getCheckedAnswer()=="answer3"){
                 score=score+1
+                finalFeedbacks.push(feedbacks[4])
+            }
+            if(getCheckedAnswer()=="answer4"){
+                score=score+0
+                finalFeedbacks.push(feedbacks[4])
+
+            }
+        }
+        if(questionNumber == 7){
+            if(getCheckedAnswer()=="answer1"){
+                score=score+5
+            }
+            if(getCheckedAnswer()=="answer2"){
+                score=score+3
+            }
+            if(getCheckedAnswer()=="answer3"){
+                score=score+1
                 finalFeedbacks.push(feedbacks[5])
             }
             if(getCheckedAnswer()=="answer4"){
@@ -207,7 +207,7 @@ document.getElementById("submit").onclick = function(){
 
             }
         }
-        if(questionNumber ==7){
+        if(questionNumber ==8){
             if(getCheckedAnswer()=="answer1"){
                 score=score+5
             }
@@ -221,23 +221,6 @@ document.getElementById("submit").onclick = function(){
             if(getCheckedAnswer()=="answer4"){
                 score=score+0
                 finalFeedbacks.push(feedbacks[6])
-
-            }
-        }
-        if(questionNumber == 8){
-            if(getCheckedAnswer()=="answer1"){
-                score=score+5
-            }
-            if(getCheckedAnswer()=="answer2"){
-                score=score+3
-            }
-            if(getCheckedAnswer()=="answer3"){
-                score=score+1
-                finalFeedbacks.push(feedbacks[7])
-            }
-            if(getCheckedAnswer()=="answer4"){
-                score=score+0
-                finalFeedbacks.push(feedbacks[7])
 
             }
         }
@@ -250,6 +233,23 @@ document.getElementById("submit").onclick = function(){
             }
             if(getCheckedAnswer()=="answer3"){
                 score=score+1
+                finalFeedbacks.push(feedbacks[7])
+            }
+            if(getCheckedAnswer()=="answer4"){
+                score=score+0
+                finalFeedbacks.push(feedbacks[7])
+
+            }
+        }
+        if(questionNumber == 10){
+            if(getCheckedAnswer()=="answer1"){
+                score=score+5
+            }
+            if(getCheckedAnswer()=="answer2"){
+                score=score+3
+            }
+            if(getCheckedAnswer()=="answer3"){
+                score=score+1
                 finalFeedbacks.push(feedbacks[8])
             }
             if(getCheckedAnswer()=="answer4"){
@@ -258,7 +258,7 @@ document.getElementById("submit").onclick = function(){
 
             }
         }
-        if(questionNumber == 10){
+        if(questionNumber == 11){
             if(getCheckedAnswer()=="answer1"){
                 score=score+5
             }
