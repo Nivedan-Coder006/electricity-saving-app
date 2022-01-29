@@ -105,7 +105,7 @@ document.getElementById("submit").onclick = function(){
         option2 = document.getElementById("option2").textContent = DataBase[questionNumber-1]["b"]
         option3 = document.getElementById("option3").textContent = DataBase[questionNumber-1]["c"]
         option4 = document.getElementById("option4").textContent = DataBase[questionNumber-1]["d"]
-        if(questionNumber == 1){
+        if(questionNumber == 2){
             if(getCheckedAnswer()=="answer1"){
                 score=score+5
             }
