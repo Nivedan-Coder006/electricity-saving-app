@@ -92,7 +92,7 @@ const getCheckedAnswer = () =>{
 
 
 document.getElementById("submit").onclick = function(){
-    if(questionNumber<12){
+    if(questionNumber<10){
 
         document.getElementById("answer1").classList.remove("ans")
         document.getElementById("answer2").classList.remove("ans")
