@@ -283,9 +283,7 @@ document.getElementById("submit").onclick = function(){
         if(finalFeedbacks.length>0){
             document.getElementById("he").textContent = "Some feedbacks for you to save electricity: " + finalFeedbacks.join(" and ") + "☹️☹️";
         }
-        if(score==0){
-            document.getElementById("he").textContent = "Some feedbacks for you to save electricity: " + finalFeedbacks.join(" and ") + "☹️☹️";
-        }
+
         else{
             document.getElementById("he").textContent = "Some feedbacks for you to save electricity: " + "You are doing a awesome job keep it up!😁😁";
 
